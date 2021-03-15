@@ -1,0 +1,18 @@
+[package]
+name = "raytracing"
+version = "0.1.0"
+authors = ["windows-ci-1 <windows-ci-1@bytedance.com>"]
+edition = "2018"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[[bin]]
+name = "ppm"
+path = "src/ppm.rs"
+
+[[bin]]
+name = "ray"
+path = "src/ray.rs"
+
+[dependencies]
+ndarray = "0.14.0"
